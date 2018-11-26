@@ -1,0 +1,30 @@
+npm config set proxy http://puneproxy.igate.com:8080
+
+npm config set https-proxy http://puneproxy.igate.com:8080
+
+npm install -g typescript
+
+npm install -g @angular/cli
+
+ng new APMSample
+
+npm start
+
+ng g c product\productlist --list --flat
+
+npm install 
+
+ng g i products/Product
+
+ng g p shared/convertToSpace
+
+ng g c shared/star --flat    *no separate folder is created*
+
+ng g s services/product --flat
+
+i=interface
+p=pipe
+c=component
+s=service
+
+
