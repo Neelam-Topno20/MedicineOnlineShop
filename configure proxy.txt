@@ -27,4 +27,4 @@ p=pipe
 c=component
 s=service
 
-
+ng g c welcome/welcome --flat
